@@ -8,7 +8,6 @@ dependencies:
   - jupyterlab>=2
   - jupyter_bokeh=2.0.4
   - ipywidgets=7.6.3
-  - ipywidgets_bokeh=1.0.2
   - ipysheet=0.4.4
   - jupyterlab-snippets=0.3.2
   - jupyter_bokeh=2.0.4
@@ -30,3 +29,4 @@ dependencies:
       - jupyterlab-widgets=1.0.0
       - ipywidgets-extended=1.0.5
       - pandas-bokeh=0.5.2
+      - ipywidgets_bokeh=1.0.2
