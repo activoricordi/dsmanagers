@@ -1,3 +1,4 @@
+notebook>=5.3
 jupyterlab==3.0.5
 jupyterlab-widgets==1.0.0
 jupyter-bokeh==2.0.4
