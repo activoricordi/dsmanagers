@@ -27,4 +27,4 @@ dependencies:
   - business-duration=0.64
   - nodejs
   - pip:
-    - git+https://github.com/QuantStack/ipysheet/#egg=ipysheet[all]
+    - git+https://github.com/blaze/dask.git#egg=dask[complete]
