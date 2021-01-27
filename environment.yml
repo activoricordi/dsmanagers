@@ -1,10 +1,11 @@
 name: dsmanager
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - notebook>=5.3
   - tornado>=6.1.0
-  - jupyterlab>3
+  - jupyterlab>=2
   - jupyter-bokeh=2.0.4
   - ipywidgets=7.6.3
   - ipywidgets-bokeh=1.0.2
@@ -21,11 +22,11 @@ dependencies:
   - bokeh=2.2.3
   - nodejs
   - pip:
-    - git+https://github.com/blaze/dask.git#egg=dask[complete]
-    - business-duration=0.64
-    - pandas-ui=0.1
-    - classypandas=0.1
-    - jupyterlab-widgets=1.0.0
-    - jupyter-bokeh=2.0.4
-    - ipywidgets-extended=1.0.5
-    - pandas-bokeh=0.5.2
+      - git+https://github.com/blaze/dask.git#egg=dask[complete]
+      - business-duration=0.64
+      - pandas-ui=0.1
+      - classypandas=0.1
+      - jupyterlab-widgets=1.0.0
+      - jupyter-bokeh=2.0.4
+      - ipywidgets-extended=1.0.5
+      - pandas-bokeh=0.5.2
