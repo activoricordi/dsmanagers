@@ -4,6 +4,7 @@ channels:
 dependencies:
   - jupyterlab-snippets=0.3.2
   - notebook>=5.3
+  - tornado >=6.1.0
   - jupyterlab=3.0.5
   - jupyterlab-widgets=1.0.0
   - jupyter-bokeh=2.0.4
@@ -25,3 +26,5 @@ dependencies:
   - bokeh=2.2.3
   - business-duration=0.64
   - nodejs
+  - pip:
+    - git+https://github.com/QuantStack/ipysheet/#egg=ipysheet[all]
