@@ -23,10 +23,10 @@ dependencies:
   - nodejs
   - pip:
       - git+https://github.com/blaze/dask.git#egg=dask[complete]
-      - business-duration=0.64
-      - pandas-ui=0.1
-      - classypandas=0.1
-      - jupyterlab-widgets=1.0.0
-      - ipywidgets-extended=1.0.5
-      - pandas-bokeh=0.5.2
-      - ipywidgets_bokeh=1.0.2
+      - business-duration==0.64
+      - pandas-ui==0.1
+      - classypandas==0.1
+      - jupyterlab-widgets==1.0.0
+      - ipywidgets-extended==1.0.5
+      - pandas-bokeh==0.5.2
+      - ipywidgets_bokeh==1.0.2
