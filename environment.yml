@@ -5,15 +5,12 @@ dependencies:
   - notebook>=5.3
   - tornado>=6.1.0
   - jupyterlab>3
-  - jupyterlab-widgets=1.0.0
   - jupyter-bokeh=2.0.4
   - ipywidgets=7.6.3
-  - ipywidgets-extended=1.0.5
   - ipywidgets-bokeh=1.0.2
   - ipysheet=0.4.4
   - jupyterlab-snippets=0.3.2
   - pandas=1.2.1
-  - pandas-bokeh=0.5.2
   - matplotlib=3.3.3
   - numpy=1.19.5
   - scipy=1.6.0
@@ -28,3 +25,7 @@ dependencies:
     - business-duration=0.64
     - pandas-ui=0.1
     - classypandas=0.1
+    - jupyterlab-widgets=1.0.0
+    - jupyter-bokeh=2.0.4
+    - ipywidgets-extended=1.0.5
+    - pandas-bokeh=0.5.2
